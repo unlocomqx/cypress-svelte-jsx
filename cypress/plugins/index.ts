@@ -14,7 +14,7 @@
 
 import { startDevServer } from "@cypress/vite-dev-server";
 import { svelte } from "@sveltejs/vite-plugin-svelte";
-import svelteJsx from "../../../../../github/vite/packages/plugin-svelte-jsx";
+import svelteJsx from "vite-svelte-jsx";
 
 /**
  * @type {Cypress.PluginConfig}
